@@ -26,7 +26,7 @@ $totalitens = mysqli_num_rows($dadositens);
 <body>
   
 <h3>Inserir item</h3>
-<form action="gerenciar_pedido.php">
+<form action="gerenciar_pedidos.php">
   <label for="item"></label>
   <select name="item" id="item">
     <?php
